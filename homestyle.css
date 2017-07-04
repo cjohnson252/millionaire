@@ -1,0 +1,15 @@
+body {
+	text-align: center;
+	background-color: navy;
+	font-family: serif;
+	color: white;
+}
+div {
+	border: 2px solid white;
+	width: 10%;
+	margin-left: 45%;
+}
+a {
+	color: white;
+	text-decoration: none;
+}

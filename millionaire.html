@@ -6,17 +6,20 @@
 	</head>
 	<body>
 		<div><h4>Worth $500</h4></div>
-		<div id="question"><h2>In the Harry Potter series, what is Dumbledore’s full name?</h2></div>
+		<div id="question"><h2>In the Harry Potter series, what is Dumbledore's full name?</h2></div>
+                <form action="mill2.php" method="post">
 		<table>
 			<tr>
-				<td>A. Albus Percival Wulfric Brian Dumbledore</td>
-				<td>C. Albus Percivus Reginald Malta Dumbledore</td>
+				<td><input type="radio" name="q1" value="A">A. Albus Percival Wulfric Brian Dumbledore</td>
+				<td><input type="radio" name="q1" value="C">C. Albus Percivus Reginald Malta Dumbledore</td>
 			</tr>
 			<tr>
-				<td>B. Albus Merlin Phillip Verick Dumbledore</td>
-				<td>D. Albus Gerald Gillfrey Gast Dumbledore</td>
+				<td><input type="radio" name="q1" value="B">B. Albus Merlin Phillip Verick Dumbledore</td>
+				<td><input type="radio" name="q1" value="D">D. Albus Gerald Gillfrey Gast Dumbledore</td>
 			</tr>
 		</table>
+                <p><input id="submit" type="submit" value="Final Answer" name="submit" /></p>
 		<div><h4>Current Bank: $0</h4></div>
-	</body>
+                </form>
+                </body>
 </html>
